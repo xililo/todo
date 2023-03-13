@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TODO LIST</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">TO-DO LIST APP</h1>
+        <div class="form-container">
+            <div class="form">
+                <input type="text" class="form-input" id="activity" placeholder="Activity Name">
+
+                <select class="form-input" id="priority">
+                    <option value="low">LOW</option>
+                    <option value="high">HIGH</option>
+                </select>
+                <input type="date" class="form-input" id="date">
+                <div class="btn-container">
+                    <button onclick="save()" id="btn">SAVE</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="list-container">
+            <div class="list-items">
+                <h2>List</h2>
+                <ol id="list">
+
+                </ol>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
